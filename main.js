@@ -147,7 +147,7 @@ function checkout() {
     <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_cart">
       <input type="hidden" name="upload" value="1">
-      <input type="hidden" name="business" value="adrian@webdev.tube">
+      <input type="hidden" name="business" value="athifrank@gmail.com">
   `;
 
   cart.forEach((cartItem, index) => {
