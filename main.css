@@ -63,7 +63,7 @@ body {
 /* ----------------- Typography ----------------- */
 
 h1, h2, h3 {
-  font-family: var(--fancy-font-family);
+  font-family: sans-serif;
   font-weight: 400;
   margin: 1rem auto;
 }
@@ -152,7 +152,7 @@ button {
 }
 
 .product__price:before {
-  content: '$';
+  content: 'Rs- ';
 }
 
 .product__image {
